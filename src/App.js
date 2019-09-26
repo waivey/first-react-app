@@ -24,7 +24,7 @@ import './App.css';
 
     render() {
       return (
-        <div>
+        <div className="time">
           <h1>The current time is</h1>
           <h2>{this.state.date.toLocaleTimeString()}.</h2>
         </div>  
